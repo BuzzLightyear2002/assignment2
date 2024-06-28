@@ -5,7 +5,7 @@ import mysql.connector
 app = Flask(__name__)
 
 mydb = mysql.connector.connect(
-    host="assignment2-db.cl179oaea0jj.us-east-1.rds.amazonaws.com",
+    host="assignment2-mysql.cl179oaea0jj.us-east-1.rds.amazonaws.com",
     user="admin",
     password="RAJ1972002",
     database="assignment2-db"
